@@ -52,9 +52,19 @@ public class UpgradeManager : MonoBehaviour
     {
         foreach (Upgrade upgrade in upgrades)
         {
+            Debug.Log("Instantiating upgrade: " + upgrade.upgradeName);
+
             GameObject newUpgradeUI = Instantiate(upgradeTemplatePrefab, upgradeContainer);
             UpgradeUI upgradeUI = newUpgradeUI.GetComponent<UpgradeUI>();
+
+            if (upgradeUI == null)
+            {
+                Debug.LogError("UpgradeUI component is missing on upgrade template prefab.");
+                continue;
+            }
+
             upgradeUI.Initialize(upgrade);
         }
     }
+
 }

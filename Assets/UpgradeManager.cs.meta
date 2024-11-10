@@ -3,7 +3,9 @@ guid: 05f5e25de2f599349a9c0a492f09e1d6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - upgradeTemplatePrefab: {fileID: 4548087003064341352, guid: d096541e9568bfc4a9389ba29b988102, type: 3}
+  - upgradeContainer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

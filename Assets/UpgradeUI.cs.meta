@@ -3,7 +3,11 @@ guid: ca08f1889284a8844b9a5486e41df98e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - upgradeNameText: {instanceID: 0}
+  - costText: {instanceID: 0}
+  - purchaseCountText: {instanceID: 0}
+  - upgradeDetailPanelPrefab: {fileID: 6342055512430887434, guid: 0d1760700ebf45942b4342c276a469ed, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
